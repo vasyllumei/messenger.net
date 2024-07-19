@@ -26,23 +26,22 @@ A social media project with a messaging platform designed to facilitate real-tim
 
 - Install the dependencies for both the backend and frontend:
 
-bash
-Copy code
+```bash
 npm install
 npm install --prefix frontend
+```
 Set Up Environment Variables
 
 - Create a .env file in the root directory of the project with the following variables:
 
-makefile
-Copy code
+```bash
 PORT=your_port
 MONGO_URI=your_mongo_uri
 JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-Run the Application
+```
 
 - Start the Backend and Frontend
 
