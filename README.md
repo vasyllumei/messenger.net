@@ -22,8 +22,6 @@ A social media project with a messaging platform designed to facilitate real-tim
 
 ## Getting Started
 
-- Clone the Repository
-
 - Install the dependencies for both the backend and frontend:
 
 ```bash
@@ -43,26 +41,19 @@ CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```
 
-- Start the Backend and Frontend
+- Start the Backend
 
-- Open a terminal and run:
-
-bash
-Copy code
+```bash
 npm run dev
-This command will start both the backend and frontend servers in development mode.
+```
 
-- Build for Production
+- Start the Frontend
 
-To build the frontend for production and ensure everything is up to date, run:
+```bash
+npm run dev --prefix frontend
+```
 
-bash
-Copy code
-npm run build
-This will install any missing dependencies and build the frontend assets.
-
-The application should now be running on http://localhost:3000 (frontend) and http://localhost:5000 (backend) during development.
-
+The application should now be running on http://localhost:3000 (frontend) and http://localhost:5000 (backend).
 
 ## License
 
